@@ -1,0 +1,270 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 auto;
+    padding: 32px 0 ; 
+}
+
+.cabecalho__busca {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.cabecalho__busca-busca {
+    display: flex;
+    align-items: center;
+    padding: 12.5px 16px;
+    border-radius: 20px;
+    border: 0px;
+    background: #e6e5e5;
+    width: 393px;
+}
+
+::placeholder {
+    color: #A2A2A2;
+}
+
+.cabecalho__login {
+    display: flex;
+    padding: 16px;
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    
+}
+
+.cabecalho__login p {
+    margin: 0 auto;
+    color: #2A7AE4;
+}
+
+/* FIM CABEÇALHO */
+
+
+/* BANNER */
+
+.banner {
+    height: 352px;
+    background-image: url(../img/banner-image.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    
+}
+
+.banner__texto {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 88%;
+    gap: 16px;
+    font-family: "Raleway", sans-serif;
+}
+
+.banner__texto-titulo {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 52px;
+    margin-top: 118px;
+}
+
+.banner__texto-subtitulo {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.banner__texto-botao {
+    color: #FFFFFF;
+    padding: 16px;
+    background: #2A7AE4;
+    width: 130px;
+}
+
+/* PRODUTOS */
+
+.produtos {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.produtos__box {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.produtos__titulo {
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 32px;
+    color: #464646;
+}
+
+.produtos__verTudo-link {
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #2A7AE4;
+}
+
+.produtos__verTudo-seta {
+    margin-left: 12px;
+}
+
+.produtos__items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    
+}
+
+.produtos__items-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.produtos__items-imagemDescricao {
+    font-family: "Raleway",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+}
+
+.produtos__items-preco  {
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #464646;
+}
+
+.produtos__items-verProduto {
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #2A7AE4;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    display: flex;
+    margin-top: 64px;
+    background-color: #EAF2FD;
+}
+
+.rodape__conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 79.75px;
+}
+
+.rodape__conteudo-links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 70px;
+    
+}
+
+.rodape__conteudo-imagem {
+    width: 176px;
+    height: 51px;
+}
+
+.rodape__conteudo-linkItem {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    color: #464646;
+}
+
+.rodape__form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway',sans-serif;
+}
+
+.rodape__form-titulo {
+    font-weight: 500;
+}
+
+.rodape__form-div {
+    position: relative;
+}
+
+
+.rodape__form-label {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #A2A2A2;
+
+}
+
+.rodape__form-label.mensagem {
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+
+.rodape__form-input {
+    margin-top: 8px;
+    width: 560px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.rodape__form-input.textarea{
+    height: 82px;
+    margin-top: 16px;
+}
+
+.rodape__form-botao {
+    margin-top: 8px;
+    width: 165px;
+    height: 51px;
+    border: none;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Raleway',sans-serif;
+}
+
+.credito {
+    display: flex;
+    margin: 32px 0;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    color: #464646;
+}
+
+
+
+
+
+
+
