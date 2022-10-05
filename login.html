@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style-login.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="cabecalho">
+            <img class="cabecalho__logo" src="./assets/img/Logo.png" alt="Logo da AluraGeek">
+            <img class="cabecalho__busca" src="./assets/img/search.png" alt="Botão de Busca">
+        </section>
+    </header>
+    <main>
+        <section class="login">
+            <h1 class="login__titulo">Iniciar Sessão</h1>
+            <div>
+                <label class="login__etiqueta email" for="email">Escreva seu Email</label>
+                <input name="email" class="login__campo email" type="email">
+            </div>
+            <div>
+                <label class="login__etiqueta senha" for="senha">Escreva sua senha</label>
+                <input name="senha" class="login__campo senha" type="password">
+            </div>
+            <button class="login__botao">Entrar</button>
+        </section>
+    </main>
+    <footer>
+        <section class="rodape">
+            <img class="rodape__logo" src="./assets/img/Logo.png" alt="">
+            <ul class="rodape__links">
+                <li class="rodape__links-link">Quem somos nós</li>
+                <li class="rodape__links-link">Política de privacidade</li>
+                <li class="rodape__links-link">Progama de fidelidade</li>
+                <li class="rodape__links-link">Nossas lojas</li>
+                <li class="rodape__links-link">Quero ser franqueado</li>
+                <li class="rodape__links-link">Anuncie aqui</li>            
+            </ul>     
+            <form class="rodape__formulario" action="">
+                <h2 class="rodape__formulario-titulo">Fale conosco</h2>
+                <div>
+                    <label class="rodape__etiqueta nome" for="nome">Nome</label>
+                    <input class="rodape__input nome" name="nome" type="text">
+                </div>
+                <div>
+                    <label class="rodape__etiqueta mensagem" for="mensagem">Escreva sua mensagem</label>
+                    <input class="rodape__input mensagem" name="mensagem" type="textarea">
+                </div>
+                <button class="rodape__botao" type="submit">Enviar mensagem</button>
+
+            </form>
+            <div class="creditos">
+                <p class="creditos__desenvolvedor">Desenvolvido por Davi Gregório</p>
+                <p class="creditos__ano">2022</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
