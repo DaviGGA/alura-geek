@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style-login.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
     <title>Document</title>
 </head>
 <body>
@@ -16,6 +18,10 @@
         <section class="cabecalho">
             <img class="cabecalho__logo" src="./assets/img/Logo.png" alt="Logo da AluraGeek">
             <img class="cabecalho__busca" src="./assets/img/search.png" alt="Botão de Busca">
+            <div class="tablet-desktop">
+                <input class="cabecalho__busca-busca" type="text" placeholder="O que deseja encontrar?">
+                <img class="cabecalho__busca-lupa" src="./assets/img/mglass-grey.svg" alt="">
+            </div>
         </section>
     </header>
     <main>
@@ -32,35 +38,39 @@
             <button class="login__botao">Entrar</button>
         </section>
     </main>
+    
     <footer>
         <section class="rodape">
-            <img class="rodape__logo" src="./assets/img/Logo.png" alt="">
-            <ul class="rodape__links">
-                <li class="rodape__links-link">Quem somos nós</li>
-                <li class="rodape__links-link">Política de privacidade</li>
-                <li class="rodape__links-link">Progama de fidelidade</li>
-                <li class="rodape__links-link">Nossas lojas</li>
-                <li class="rodape__links-link">Quero ser franqueado</li>
-                <li class="rodape__links-link">Anuncie aqui</li>            
-            </ul>     
-            <form class="rodape__formulario" action="">
-                <h2 class="rodape__formulario-titulo">Fale conosco</h2>
-                <div>
-                    <label class="rodape__etiqueta nome" for="nome">Nome</label>
-                    <input class="rodape__input nome" name="nome" type="text">
-                </div>
-                <div>
-                    <label class="rodape__etiqueta mensagem" for="mensagem">Escreva sua mensagem</label>
-                    <input class="rodape__input mensagem" name="mensagem" type="textarea">
-                </div>
-                <button class="rodape__botao" type="submit">Enviar mensagem</button>
-
-            </form>
-            <div class="creditos">
-                <p class="creditos__desenvolvedor">Desenvolvido por Davi Gregório</p>
-                <p class="creditos__ano">2022</p>
-            </div>
+            <div class="rodape__conteudo">
+                <div class="rodape__caixa">
+                    <img class="rodape__logo" src="./assets/img/Logo.png" alt="">
+                    <ul class="rodape__links">
+                        <a href=""><li class="rodape__links-link">Quem somos nós</li></a>
+                        <a href=""><li class="rodape__links-link">Política de privacidade</li></a>
+                        <a href=""><li class="rodape__links-link">Progama de fidelidade</li></a>
+                        <a href=""><li class="rodape__links-link">Nossas lojas</li></a>
+                        <a href=""><li class="rodape__links-link">Quero ser franqueado</li></a>
+                        <a href=""><li class="rodape__links-link">Anuncie aqui</li></a>            
+                    </ul>
+                </div>    
+                <form class="rodape__formulario" action="">
+                    <h2 class="rodape__formulario-titulo">Fale conosco</h2>
+                    <div>
+                        <label class="rodape__etiqueta nome" for="nome">Nome</label>
+                        <input class="rodape__input nome" name="nome" type="text">
+                    </div>
+                    <div>
+                        <label class="rodape__etiqueta mensagem" for="mensagem">Escreva sua mensagem</label>
+                        <input class="rodape__input mensagem" name="mensagem" type="textarea">
+                    </div>
+                    <button class="rodape__botao" type="submit">Enviar mensagem</button>
+                </form>
+            </div> 
         </section>
+        <div class="creditos">
+            <p class="creditos__desenvolvedor">Desenvolvido por Davi Gregório</p>
+            <p class="creditos__ano">2022</p>
+        </div>
     </footer>
 </body>
 </html>

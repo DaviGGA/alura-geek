@@ -1,0 +1,103 @@
+body {
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem auto;
+    margin-top: 1.5em;
+    width: 90%;
+    
+}
+
+.cabecalho__logo {
+    width: 6.25rem;
+    height: 1.75rem;
+}
+
+.cabecalho__busca {
+    width: 1.0625rem;
+    height: 1.0625rem;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+.cabecalho__botao-login {
+    width: 8.3125rem;
+    height: 2.5rem;
+    border: 1px solid #2A7AE4;
+    background: #FFFFFF;
+}
+
+.cabecalho__botao-login a {
+    color: #2A7AE4;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .cabecalho {
+        justify-content: flex-start;
+    }
+
+    .cabecalho__busca {
+        display: none;
+    }
+
+    .tablet-desktop {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .cabecalho__busca-busca {
+        border: none;
+        border-radius: 20px;
+        background: #eeeeee;
+        margin-left: 2rem;
+        width: 17rem;
+        height: 2.5rem;
+        padding-left: 1rem;
+        
+    }
+
+    .cabecalho__busca-lupa {
+        position: absolute;
+        padding-right: .75rem;
+        
+    }
+
+    .cabecalho__botao-login {
+        width: 10.375rem;
+        order: 3;
+        
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .cabecalho__logo {
+        width: 11rem;
+        height: 3.125rem;
+    }
+
+    .cabecalho__busca-busca {
+        width: 24.5625rem;
+        height:  2.5rem;
+    }
+
+    .cabecalho__botao-login {
+        width: 11.375rem;
+        height: 3.1875rem;
+        margin-left: 0;
+    }
+
+    
+    
+}
